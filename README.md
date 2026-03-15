@@ -33,9 +33,10 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for full details.
 
 ## Available Games
 
-| Game                                               | Description                                                 |
-| -------------------------------------------------- | ----------------------------------------------------------- |
-| [Bouncing Ball](src/games/bouncing-ball/README.md) | Classic breakout-style paddle game demonstrating core hooks |
+| Game                                               | Description                                                                  |
+| -------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [Bouncing Ball](src/games/bouncing-ball/README.md) | Classic breakout-style paddle game demonstrating core hooks                  |
+| [Fantacity](src/games/fantacity/README.md)         | Medieval-fantasy RTS: base management, autobattle combat, four victory paths |
 
 ---
 
