@@ -15,6 +15,13 @@ const games: GameEntry[] = [
 			'Medieval-fantasy RTS. Manage your base, assign workers, build armies and conquer the overworld — no unit micro required.',
 		component: lazy(() => import('@/games/fantacity/index')),
 	},
+	{
+		id: 'hub-station',
+		title: 'Hub Station',
+		description:
+			'Incremental roguelite strategy. You are the sentient AI of an anomalous Hub — warp into uncharted regions, collect resources, battle threats, and research upgrades to survive the void.',
+		component: lazy(() => import('@/games/hub-station/index')),
+	},
 ]
 
 export function getGame(id: string): GameEntry | undefined {
