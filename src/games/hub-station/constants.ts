@@ -120,7 +120,7 @@ export const INITIAL_RESEARCH: ResearchNode[] = [
 		unlocked: false,
 		available: false,
 		prerequisites: ['advanced-hull'],
-		effect: 'Fleet takes 30% less hull damage in combat',
+		effect: 'Fleet attack +50% in combat (reduces incoming damage)',
 	},
 	{
 		id: 'bio-vats',
